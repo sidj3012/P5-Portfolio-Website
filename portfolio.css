@@ -211,3 +211,68 @@ footer{
     margin-bottom: 2rem;
     font-size: 1.1rem;
 }
+
+@media(max-width:768px){
+    #header-name{
+        font-size: 1.5rem;
+    }
+    .sidebar{
+        gap: 0.5rem;
+        left: 0.5rem;
+        bottom: 6rem;
+    }
+    #welcome-heading{
+        font-size: 2rem;
+    }
+    #welcome-intro{
+        font-size: 2rem;
+    }
+    .container{
+        padding-left: 3rem;
+        padding-right: 1rem;
+        flex-direction: column;
+        height: 150vh;
+    }
+    #about-text{
+    width: 20rem;
+    font-size: 1rem;
+    }
+    #about-photo{
+        height: 23rem;
+        width: 18rem;
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+    #about-photo-image img{
+        height: 23rem;
+        width: 18rem;
+    }
+    #about-photo-text{
+        height: 23rem;
+        width: 18rem;
+        font-size: 1.4rem;
+        font-weight: 800;
+    }
+    .portfolio-image img{
+        width: 20rem;
+        height: 12rem;
+    }
+    .portfolio-image{
+        margin:2rem 0rem;
+    }
+    .portfolio-image-text-top{
+        font-size: 1.3rem;
+    }
+    .portfolio-image-text-left{
+        left: 0rem;
+        font-size: 1.2rem;
+    }
+    .portfolio-image-text-right{
+        right: 0rem;
+        font-size: 1.2rem;
+    }
+    #resume-image img{
+        height: 25rem;
+        width: 18rem;
+    }
+}
