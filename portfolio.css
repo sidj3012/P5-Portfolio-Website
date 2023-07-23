@@ -171,21 +171,14 @@ color: #72FACA;
     width: 30rem;
     height: 20rem;
 }
-.portfolio-image img::before{
-    content: "";
-    position: absolute;
-    background: url('profilepicture.jpg') no-repeat center center;
-    width: 100%;
-    height: 100%;
-    
-    opacity: 0.1;
-}
+
 .portfolio-image{
     margin:2rem 8rem;
     position: relative;
     text-align: center;
     margin-right: 2rem;
     display: inline-block;
+
 }
 .portfolio-image-text-top{
     position: absolute;
@@ -227,7 +220,10 @@ color: #72FACA;
     font-size: 1.5rem;
     opacity: 0.8;
 }
-
+.portfolio-image-text-left a , .portfolio-image-text-right a{
+    text-decoration: none;
+    color: azure;
+}
 
 #resume{
     display: flex;
@@ -309,15 +305,19 @@ footer{
     }
     .portfolio-image-text-top{
         font-size: 1.3rem;
+
     }
     .portfolio-image-text-left{
         left: 0rem;
         font-size: 1.2rem;
+
     }
     .portfolio-image-text-right{
         right: 0rem;
         font-size: 1.2rem;
+        
     }
+    
     #resume-image img{
         height: 25rem;
         width: 18rem;
