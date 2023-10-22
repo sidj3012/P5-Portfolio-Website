@@ -155,6 +155,25 @@
             $("#sidebar-github-extended").css("display","none");
         });
         });
+
+        $(document).ready(function(){
+        // Smooth scrolling for header links
+        $(".item a").on('click', function(e) {
+            if (this.hash !== "") {
+                e.preventDefault();
+
+                var target = $(this.hash);
+                $('html, body').animate({
+                    scrollTop: target.offset().top
+                }, 1000); // You can adjust the animation duration (in milliseconds) to control the scroll speed.
+            }
+        });
+    });
+
+    $(document).ready(function() {
+        // Add a class that triggers the fade-in animation
+        $("body").addClass("fade-in");
+    });
     </script>
 </body>
 </html>
