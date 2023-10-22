@@ -158,7 +158,10 @@ color: #72FACA;
     box-sizing: border-box;
 }
 
-
+#experience{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
